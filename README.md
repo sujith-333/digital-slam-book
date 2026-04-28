@@ -1,4 +1,4 @@
-# 📖 Digital Slam Book
+#  Digital Slam Book
 
 > A modern, full-stack digital memory book — create your personal slam book, share with friends, and collect beautiful memories forever.
 
@@ -7,28 +7,28 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 ![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=for-the-badge&logo=vercel)
 
-## 🌐 Live Demo
+##  Live Demo
 
-**👉 [digital-slam-book-eight.vercel.app](https://digital-slam-book-eight.vercel.app)**
-
----
-
-## ✨ Features
-
-- 🎨 **4 Immersive Themes** — Retro 90s, Minimal, Neon Night, Pastel Dream
-- 🔐 **Google OAuth** — Sign in with Google via NextAuth.js
-- ✍️ **Book Creation** — Custom questions with drag-to-reorder
-- 📖 **Fill Page** — One-question-at-a-time flow with progress bar
-- 🎉 **Confetti on Submit** — Celebration animation when friends submit
-- 📊 **Beautiful Dashboard** — Manage all your slam books
-- 💌 **Polaroid Response Cards** — Masonry grid of friend responses
-- 📸 **Save as Image** — Export responses as shareable image cards
-- 🎭 **Anonymous Responses** — Friends can stay anonymous
-- 🔗 **Shareable Links** — Unique URL for each slam book
+** [digital-slam-book-eight.vercel.app](https://digital-slam-book-eight.vercel.app)**
 
 ---
 
-## 🛠️ Tech Stack
+##  Features
+
+-  **4 Immersive Themes** — Retro 90s, Minimal, Neon Night, Pastel Dream
+-  **Google OAuth** — Sign in with Google via NextAuth.js
+-  **Book Creation** — Custom questions with drag-to-reorder
+-  **Fill Page** — One-question-at-a-time flow with progress bar
+-  **Confetti on Submit** — Celebration animation when friends submit
+-  **Beautiful Dashboard** — Manage all your slam books
+-  **Polaroid Response Cards** — Masonry grid of friend responses
+-  **Save as Image** — Export responses as shareable image cards
+-  **Anonymous Responses** — Friends can stay anonymous
+-  **Shareable Links** — Unique URL for each slam book
+
+---
+
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -44,7 +44,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 digital-slam-book/
@@ -74,7 +74,7 @@ digital-slam-book/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -126,7 +126,7 @@ create table responses (
   is_anonymous boolean default false,
   answers jsonb default '[]',
   vibe text default '',
-  signature jsonb default '{"color": "#6366f1", "emoji": "✨"}',
+  signature jsonb default '{"color": "#6366f1"}',
   created_at timestamp with time zone default now()
 );
 ```
@@ -182,7 +182,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser! 🎉
 
 ---
 
-## 🌍 Deployment
+##  Deployment
 
 This app is deployed on **Vercel**. To deploy your own:
 
@@ -198,22 +198,22 @@ https://your-app.vercel.app/api/auth/callback/google
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
-- 🐛 Report bugs
-- 💡 Suggest new features
-- 🔧 Submit pull requests
+-  Report bugs
+-  Suggest new features
+-  Submit pull requests
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sujith**
 - GitHub: [@sujith-333](https://github.com/sujith-333)
