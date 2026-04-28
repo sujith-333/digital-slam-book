@@ -420,7 +420,7 @@ export default function FillPage() {
                 <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
                 Sending...
               </>
-            ) : {`💌 Send to ${book.title}`}
+            ) : <span>💌 Send to {book.title}</span>}
           </motion.button>
 
           <button onClick={() => { setPhase('questions'); setCurrentQ(book.questions.length - 1); }}
